@@ -1,0 +1,22 @@
+{
+  "tone": "friendly",
+  "pronoun": "you-only",
+  "headingStyle": "Sentence case",
+  "headingLengthClass": "balanced",
+  "ctaVerbs": [],
+  "buttonPatterns": [],
+  "sampleHeadings": [
+    "Journey",
+    "Cruise is with you through the whole patient journey",
+    "What sets Cruise apart",
+    "Integration",
+    "Cruise knows how to use your tools",
+    "Sync with 100+ popular apps to connect your digital medtech in one place.",
+    "Products",
+    "Co-pilots built for everyone on  your team"
+  ],
+  "stats": {
+    "buttons": 0,
+    "headings": 8
+  }
+}

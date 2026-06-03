@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/dhruvjain/Downloads/**)",
+      "Bash(echo '{\"name\":\"void-hackathon-26\",\"outputDirectory\":\".\"}')",
+      "Bash(rm -rf .vercel)",
+      "Bash(npx vercel *)",
+      "Bash(echo '{\"outputDirectory\":\".\"}')",
+      "mcp__Claude_Preview__preview_start"
+    ]
+  }
+}

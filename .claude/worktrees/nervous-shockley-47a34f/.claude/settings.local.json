@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c ' *)",
+      "Bash(kill 38631)",
+      "Bash(python3 app.py)",
+      "Bash(python3 -c \"import ast; ast.parse\\(open\\('app.py'\\).read\\(\\)\\); print\\('Syntax OK'\\)\")",
+      "Bash(python3 -c \"import app; print\\('Import OK'\\)\")",
+      "Bash(awk '{print $2}')",
+      "Bash(xargs kill)",
+      "Bash(pkill -f \"app.py\")",
+      "Bash(python3 /Users/dhruvjain/Terroir-Systems/app.py)",
+      "Bash(python3 -c \"from batch_dashboard import BatchHealthDashboard; print\\('OK'\\)\")"
+    ]
+  }
+}

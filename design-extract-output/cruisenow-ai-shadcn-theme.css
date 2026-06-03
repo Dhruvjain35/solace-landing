@@ -1,0 +1,19 @@
+/* shadcn/ui Theme — extracted from https://cruisenow.ai */
+/* Paste into your globals.css */
+
+@layer base {
+  :root {
+    --background: 240 21% 15%;
+    --foreground: 0 0% 0%;
+    --primary: 227 95% 55%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 240 21% 15%;
+    --secondary-foreground: 0 0% 100%;
+    --accent: 220 100% 66%;
+    --accent-foreground: 0 0% 100%;
+    --muted: 229 16% 20%;
+    --muted-foreground: 0 0% 0%;
+    --border: 229 16% 20%;
+    --radius: 8px;
+  }
+}

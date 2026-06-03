@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Damaged potato', 'Defected potato', 'Diseased-fungal potato', 'Potato', 'Sprouted potato']
+
+roboflow:
+  workspace: vegetable-quality-detection
+  project: potato-detection-3et6q
+  version: 11
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/vegetable-quality-detection/potato-detection-3et6q/dataset/11

@@ -1,0 +1,219 @@
+{
+  "pageIntent": {
+    "type": "landing",
+    "confidence": 0.31,
+    "path": "/",
+    "title": "Cruise AI | AI-Powered Medical Scribe & Coding Solution for Clinicians",
+    "description": "Save time and improve accuracy with Cruise AI, the AI-powered medical scribe that automates clinical documentation and coding. Reduce administrative burden, increase note accuracy, and focus on patien",
+    "signals": [
+      {
+        "kind": "dom",
+        "type": "blog-post",
+        "weight": 0.35,
+        "detail": "byline|min-read"
+      },
+      {
+        "kind": "url",
+        "type": "landing",
+        "weight": 0.45,
+        "detail": "root-path"
+      }
+    ],
+    "alternates": [
+      {
+        "type": "blog-post",
+        "score": 0.35
+      }
+    ],
+    "needsSmart": true
+  },
+  "sectionRoles": {
+    "sections": [
+      {
+        "index": 0,
+        "tag": "section",
+        "role": "content",
+        "subrole": null,
+        "confidence": 0.3,
+        "heading": null,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 800
+        },
+        "buttonCount": 0,
+        "cardCount": 0,
+        "slots": {
+          "lede": "AI Agents to help you cruise through healthcare"
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 1,
+        "tag": "header",
+        "role": "nav",
+        "subrole": null,
+        "confidence": 0.4,
+        "heading": "Journey",
+        "bounds": {
+          "x": 0,
+          "y": 800,
+          "w": 1280,
+          "h": 2503.625
+        },
+        "buttonCount": 0,
+        "cardCount": 4,
+        "slots": {
+          "heading": "Journey",
+          "subheadings": [
+            "Cruise is with you through the whole patient journey"
+          ],
+          "lede": "Journey\nCruise is with you through the whole patient journey"
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 2,
+        "tag": "header",
+        "role": "nav",
+        "subrole": null,
+        "confidence": 0.4,
+        "heading": "What sets Cruise apart",
+        "bounds": {
+          "x": 0,
+          "y": 3303.625,
+          "w": 1280,
+          "h": 772.40625
+        },
+        "buttonCount": 0,
+        "cardCount": 0,
+        "slots": {
+          "heading": "What sets Cruise apart"
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 3,
+        "tag": "header",
+        "role": "nav",
+        "subrole": null,
+        "confidence": 0.4,
+        "heading": "Integration",
+        "bounds": {
+          "x": 0,
+          "y": 4676.03125,
+          "w": 1280,
+          "h": 762.8125
+        },
+        "buttonCount": 0,
+        "cardCount": 59,
+        "slots": {
+          "heading": "Integration",
+          "subheadings": [
+            "Cruise knows how to use your tools",
+            "Sync with 100+ popular apps to connect your digital medtech in one place."
+          ],
+          "lede": "Integration\nCruise knows how to use your tools\nSync with 100+ popular apps to connect your digital medtech in one place."
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 4,
+        "tag": "section",
+        "role": "content",
+        "subrole": null,
+        "confidence": 0.3,
+        "heading": null,
+        "bounds": {
+          "x": 0,
+          "y": 5022.84375,
+          "w": 1280,
+          "h": 100
+        },
+        "buttonCount": 0,
+        "cardCount": 32,
+        "slots": {},
+        "needsSmart": true
+      },
+      {
+        "index": 5,
+        "tag": "section",
+        "role": "content",
+        "subrole": null,
+        "confidence": 0.3,
+        "heading": null,
+        "bounds": {
+          "x": 0,
+          "y": 5138.84375,
+          "w": 1280,
+          "h": 100
+        },
+        "buttonCount": 0,
+        "cardCount": 27,
+        "slots": {},
+        "needsSmart": true
+      },
+      {
+        "index": 6,
+        "tag": "header",
+        "role": "nav",
+        "subrole": null,
+        "confidence": 0.4,
+        "heading": "Products",
+        "bounds": {
+          "x": 0,
+          "y": 5438.84375,
+          "w": 1280,
+          "h": 860.8125
+        },
+        "buttonCount": 2,
+        "cardCount": 5,
+        "slots": {
+          "heading": "Products",
+          "subheadings": [
+            "Co-pilots built for everyone on  your team"
+          ],
+          "ctaCount": 2,
+          "lede": "Products\nCo-pilots built for everyone on  your team"
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 7,
+        "tag": "section",
+        "role": "content",
+        "subrole": null,
+        "confidence": 0.3,
+        "heading": null,
+        "bounds": {
+          "x": 0,
+          "y": 5785.65625,
+          "w": 1280,
+          "h": 450
+        },
+        "buttonCount": 2,
+        "cardCount": 5,
+        "slots": {
+          "ctaCount": 2,
+          "lede": "Sarah Front Desk"
+        },
+        "needsSmart": true
+      }
+    ],
+    "counts": {
+      "content": 4,
+      "nav": 4
+    },
+    "readingOrder": [
+      "content",
+      "nav",
+      "nav",
+      "nav",
+      "content",
+      "content",
+      "nav",
+      "content"
+    ]
+  }
+}

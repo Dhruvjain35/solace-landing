@@ -1,0 +1,23 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "solace-dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "port": 5173
+    },
+    {
+      "name": "threshold",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "/Users/dhruvjain/Desktop/spacetimedb/threshold/node_modules/vite/bin/vite.js",
+        "/Users/dhruvjain/Desktop/spacetimedb/threshold",
+        "--host",
+        "--port",
+        "5173"
+      ],
+      "port": 5173
+    }
+  ]
+}

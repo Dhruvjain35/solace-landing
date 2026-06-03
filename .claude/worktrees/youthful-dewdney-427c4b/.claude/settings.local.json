@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cp /tmp/Solace_Security_Architecture.pdf ~/Desktop/Solace_Security_Architecture.pdf)",
+      "Read(//Users/dhruvjain/Desktop/**)",
+      "Bash(rm -f /tmp/solace-ai-fresh/docs/HIPAA_COMPLIANCE_DUE_DILIGENCE.pdf)",
+      "Read(//private/tmp/solace-ai-fresh/**)",
+      "Bash(PUPPETEER_EXECUTABLE_PATH=\"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome\" npx md-to-pdf docs/HIPAA_COMPLIANCE_DUE_DILIGENCE.md --stylesheet docs/.pdf-style.css --pdf-options '{\"format\":\"Letter\",\"margin\":{\"top\":\"0.75in\",\"bottom\":\"0.9in\",\"left\":\"0.8in\",\"right\":\"0.8in\"},\"printBackground\":true}')",
+      "WebSearch",
+      "WebFetch(domain:www.techinterviewhandbook.org)",
+      "WebFetch(domain:techncv.com)",
+      "Bash(node -e ' *)"
+    ]
+  }
+}

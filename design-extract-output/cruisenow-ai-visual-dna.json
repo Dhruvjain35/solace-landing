@@ -1,0 +1,58 @@
+{
+  "materialLanguage": {
+    "label": "flat",
+    "confidence": 0,
+    "signals": [],
+    "metrics": {
+      "saturation": 0.431,
+      "shadowProfile": "soft",
+      "avgShadowBlur": 0,
+      "maxShadowBlur": 0,
+      "insetShadows": 0,
+      "avgRadius": 56,
+      "maxRadius": 200,
+      "hasPill": false,
+      "hasBackdropBlur": false,
+      "gradientCount": 10
+    },
+    "alternates": []
+  },
+  "imageryStyle": {
+    "label": "photography",
+    "confidence": 0.023,
+    "counts": {
+      "total": 57,
+      "svg": 2,
+      "icon": 6,
+      "hero": 0,
+      "screenshot": 0,
+      "photoLike": 0
+    },
+    "dominantAspect": "square-ish",
+    "radiusProfile": "rounded",
+    "alternates": [],
+    "signals": []
+  },
+  "backgroundPatterns": {
+    "labels": [
+      "svg-pattern"
+    ],
+    "counts": {
+      "noise": 0,
+      "dotGrid": 0,
+      "lineGrid": 0,
+      "meshCount": 0,
+      "svgPattern": 1
+    },
+    "gradientTotals": {
+      "radial": 0,
+      "linear": 16
+    },
+    "samples": [
+      {
+        "tag": "svg-pattern",
+        "value": "url(\"data:image/svg+xml,<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" xmlns:xlink=\\\"http://www.w3.org/1999/xlink\\\" viewBox=\\\"0 0 144 25\\\"><path d=\\\"M 20.82 1.731 L 3.294 1.731 C 2.337 1.731 1.5 2.421 1.5 "
+      }
+    ]
+  }
+}

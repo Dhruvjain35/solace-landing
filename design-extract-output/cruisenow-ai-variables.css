@@ -1,0 +1,87 @@
+:root {
+  /* Colors — Primary */
+  --color-primary: #2251f9;
+  --color-secondary: #1e1e2e;
+  --color-accent: #518bff;
+
+  /* Colors — Neutrals */
+  --color-neutral-50: #000000;
+  --color-neutral-100: #f4f5f7;
+  --color-neutral-200: #ffffff;
+  --color-neutral-300: #4d4f5c;
+  --color-neutral-400: #2b2e3b;
+
+  /* Colors — Backgrounds */
+  --color-bg: #1e1e2e;
+  --color-bg-1: #f4f5f7;
+  --color-bg-2: #ffffff;
+  --color-bg-3: #2251f9;
+  --color-bg-4: #2e90fa;
+  --color-bg-5: #9d76ed;
+  --color-bg-6: #030301;
+
+  /* Colors — Text */
+  --color-text: #000000;
+  --color-text-1: #0000ee;
+  --color-text-2: #f4f5f7;
+  --color-text-3: #eeeeee;
+  --color-text-4: #2251f9;
+
+  /* Typography — Families */
+  --font-sans: 'TT Interfaces Medium', sans-serif;
+  --font-body: 'Times', sans-serif;
+  --font-font-2: 'TT Interfaces Regular', sans-serif;
+  --font-font-3: 'Cirka Variable', sans-serif;
+  --font-font-4: 'TT Interfaces', sans-serif;
+  --font-body: 'Cirka Bold', sans-serif;
+  --font-font-6: 'Inter', sans-serif;
+
+  /* Typography — Scale */
+  --font-size-200: 200px;
+  --font-size-72: 72px;
+  --font-size-64: 64px;
+  --font-size-40: 40px;
+  --font-size-24: 24px;
+  --font-size-20: 20px;
+  --font-size-16: 16px;
+  --font-size-14: 14px;
+  --font-size-12: 12px;
+  --font-size-10: 10px;
+
+  /* Spacing */
+  --spacing-1: 1px;
+  --spacing-4: 4px;
+  --spacing-27: 27px;
+  --spacing-32: 32px;
+  --spacing-36: 36px;
+  --spacing-46: 46px;
+  --spacing-50: 50px;
+  --spacing-64: 64px;
+  --spacing-72: 72px;
+  --spacing-80: 80px;
+  --spacing-87: 87px;
+  --spacing-120: 120px;
+  --spacing-140: 140px;
+
+  /* Border Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-full: 40px;
+  --radius-full: 100px;
+  --radius-full: 200px;
+
+  /* Box Shadows */
+  --shadow-xs: rgba(16, 24, 40, 0.05) 0px 1px 2px 0px;
+
+  /* Original Site Variables */
+  /* — other — */
+  --ticker-offset: 0px;
+  /* — semantic — */
+  success: [object Object];
+  warning: [object Object];
+  error: [object Object];
+  info: [object Object];
+
+}

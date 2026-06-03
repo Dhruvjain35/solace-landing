@@ -1,0 +1,172 @@
+{
+  "$schema": "https://designlang.app/schemas/gradients.json",
+  "source": "https://cruisenow.ai",
+  "generated": "2026-06-03T18:26:00.230Z",
+  "count": 10,
+  "gradients": [
+    {
+      "raw": "linear-gradient(26.565deg, rgb(150, 172, 194) 0%, rgb(167, 190, 213) 100%)",
+      "type": "linear",
+      "direction": "26.565deg",
+      "stops": [
+        {
+          "color": "rgb(150, 172, 194)",
+          "position": "0%"
+        },
+        {
+          "color": "rgb(167, 190, 213)",
+          "position": "100%"
+        }
+      ],
+      "classification": "brand"
+    },
+    {
+      "raw": "linear-gradient(26.565deg, rgb(251, 252, 252) 0%, rgb(211, 223, 237) 100%)",
+      "type": "linear",
+      "direction": "26.565deg",
+      "stops": [
+        {
+          "color": "rgb(251, 252, 252)",
+          "position": "0%"
+        },
+        {
+          "color": "rgb(211, 223, 237)",
+          "position": "100%"
+        }
+      ],
+      "classification": "brand"
+    },
+    {
+      "raw": "linear-gradient(26.565deg, rgb(29, 40, 56) 0%, rgb(52, 64, 83) 100%)",
+      "type": "linear",
+      "direction": "26.565deg",
+      "stops": [
+        {
+          "color": "rgb(29, 40, 56)",
+          "position": "0%"
+        },
+        {
+          "color": "rgb(52, 64, 83)",
+          "position": "100%"
+        }
+      ],
+      "classification": "brand"
+    },
+    {
+      "raw": "linear-gradient(161.93deg, rgb(84, 109, 228) 0%, rgb(48, 59, 118) 39.5%, rgb(30, 34, 64) 77.5%)",
+      "type": "linear",
+      "direction": "161.93deg",
+      "stops": [
+        {
+          "color": "rgb(84, 109, 228)",
+          "position": "0%"
+        },
+        {
+          "color": "rgb(48, 59, 118)",
+          "position": "39.5%"
+        },
+        {
+          "color": "rgb(30, 34, 64)",
+          "position": "77.5%"
+        }
+      ],
+      "classification": "bold"
+    },
+    {
+      "raw": "linear-gradient(274deg, rgb(0, 217, 255) 0%, rgb(255, 255, 255) 100%)",
+      "type": "linear",
+      "direction": "274deg",
+      "stops": [
+        {
+          "color": "rgb(0, 217, 255)",
+          "position": "0%"
+        },
+        {
+          "color": "rgb(255, 255, 255)",
+          "position": "100%"
+        }
+      ],
+      "classification": "brand"
+    },
+    {
+      "raw": "linear-gradient(6825deg, rgb(249, 254, 255) 0%, rgb(0, 217, 255) 100%)",
+      "type": "linear",
+      "direction": "6825deg",
+      "stops": [
+        {
+          "color": "rgb(249, 254, 255)",
+          "position": "0%"
+        },
+        {
+          "color": "rgb(0, 217, 255)",
+          "position": "100%"
+        }
+      ],
+      "classification": "brand"
+    },
+    {
+      "raw": "linear-gradient(274deg, rgb(255, 168, 0) 0%, rgb(255, 255, 255) 100%)",
+      "type": "linear",
+      "direction": "274deg",
+      "stops": [
+        {
+          "color": "rgb(255, 168, 0)",
+          "position": "0%"
+        },
+        {
+          "color": "rgb(255, 255, 255)",
+          "position": "100%"
+        }
+      ],
+      "classification": "brand"
+    },
+    {
+      "raw": "linear-gradient(6825deg, rgb(249, 254, 255) 0%, rgb(255, 168, 0) 100%)",
+      "type": "linear",
+      "direction": "6825deg",
+      "stops": [
+        {
+          "color": "rgb(249, 254, 255)",
+          "position": "0%"
+        },
+        {
+          "color": "rgb(255, 168, 0)",
+          "position": "100%"
+        }
+      ],
+      "classification": "brand"
+    },
+    {
+      "raw": "linear-gradient(180deg, rgb(244, 245, 247) 0%, rgb(244, 245, 247) 100%)",
+      "type": "linear",
+      "direction": "180deg",
+      "stops": [
+        {
+          "color": "rgb(244, 245, 247)",
+          "position": "0%"
+        },
+        {
+          "color": "rgb(244, 245, 247)",
+          "position": "100%"
+        }
+      ],
+      "classification": "brand"
+    },
+    {
+      "raw": "linear-gradient(180deg, rgb(236, 239, 242) 0%, rgb(212, 219, 226) 100%)",
+      "type": "linear",
+      "direction": "180deg",
+      "stops": [
+        {
+          "color": "rgb(236, 239, 242)",
+          "position": "0%"
+        },
+        {
+          "color": "rgb(212, 219, 226)",
+          "position": "100%"
+        }
+      ],
+      "classification": "brand"
+    }
+  ]
+}

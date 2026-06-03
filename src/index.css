@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-white text-ink font-sans antialiased;
+    -webkit-font-smoothing: antialiased;
+  }
+  ::selection {
+    @apply bg-solace-mint/30;
+  }
+}
+
+@layer components {
+  /* Big editorial headline, matching Cruise's tight light display type */
+  .h-display {
+    @apply font-display font-normal leading-[0.95] tracking-tightest;
+  }
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-pill bg-gradient-to-br from-solace-green-700 to-solace-mint px-7 py-3.5 text-sm font-medium text-white shadow-lift transition duration-300 ease-standard hover:scale-[1.03] hover:shadow-glow;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-pill border border-solace-green-100 bg-white px-7 py-3.5 text-sm font-medium text-solace-green-700 transition duration-300 ease-standard hover:bg-solace-soft;
+  }
+  .eyebrow {
+    @apply inline-flex items-center gap-2 rounded-pill bg-solace-soft px-3.5 py-1.5 text-xs font-medium uppercase tracking-[0.12em] text-solace-green-700;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
