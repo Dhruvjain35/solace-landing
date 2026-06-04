@@ -1,0 +1,533 @@
+{
+  "collections": [
+    {
+      "name": "Brand",
+      "modes": [
+        "light"
+      ],
+      "variables": [
+        {
+          "name": "color/primary",
+          "type": "COLOR",
+          "values": {
+            "light": {
+              "r": 0.36470588235294116,
+              "g": 0.2823529411764706,
+              "b": 0.8588235294117647,
+              "a": 1
+            }
+          }
+        },
+        {
+          "name": "color/neutral/50",
+          "type": "COLOR",
+          "values": {
+            "light": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 1
+            }
+          }
+        },
+        {
+          "name": "color/neutral/100",
+          "type": "COLOR",
+          "values": {
+            "light": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            }
+          }
+        },
+        {
+          "name": "color/neutral/200",
+          "type": "COLOR",
+          "values": {
+            "light": {
+              "r": 0.9411764705882353,
+              "g": 0.9411764705882353,
+              "b": 0.9411764705882353,
+              "a": 1
+            }
+          }
+        },
+        {
+          "name": "color/background/default",
+          "type": "COLOR",
+          "values": {
+            "light": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            }
+          }
+        },
+        {
+          "name": "color/background/1",
+          "type": "COLOR",
+          "values": {
+            "light": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 1
+            }
+          }
+        },
+        {
+          "name": "color/text/default",
+          "type": "COLOR",
+          "values": {
+            "light": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 1
+            }
+          }
+        },
+        {
+          "name": "color/text/1",
+          "type": "COLOR",
+          "values": {
+            "light": {
+              "r": 0.36470588235294116,
+              "g": 0.2823529411764706,
+              "b": 0.8588235294117647,
+              "a": 1
+            }
+          }
+        },
+        {
+          "name": "color/text/2",
+          "type": "COLOR",
+          "values": {
+            "light": {
+              "r": 0.9411764705882353,
+              "g": 0.9411764705882353,
+              "b": 0.9411764705882353,
+              "a": 1
+            }
+          }
+        },
+        {
+          "name": "color/text/3",
+          "type": "COLOR",
+          "values": {
+            "light": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Typography",
+      "modes": [
+        "default"
+      ],
+      "variables": [
+        {
+          "name": "font/size/248.889",
+          "type": "FLOAT",
+          "values": {
+            "default": 248.889
+          }
+        },
+        {
+          "name": "font/weight/248.889",
+          "type": "FLOAT",
+          "values": {
+            "default": 500
+          }
+        },
+        {
+          "name": "font/lineHeight/248.889",
+          "type": "FLOAT",
+          "values": {
+            "default": 248.889
+          }
+        },
+        {
+          "name": "font/size/195.556",
+          "type": "FLOAT",
+          "values": {
+            "default": 195.556
+          }
+        },
+        {
+          "name": "font/weight/195.556",
+          "type": "FLOAT",
+          "values": {
+            "default": 500
+          }
+        },
+        {
+          "name": "font/lineHeight/195.556",
+          "type": "FLOAT",
+          "values": {
+            "default": 195.556
+          }
+        },
+        {
+          "name": "font/size/125.333",
+          "type": "FLOAT",
+          "values": {
+            "default": 125.333
+          }
+        },
+        {
+          "name": "font/weight/125.333",
+          "type": "FLOAT",
+          "values": {
+            "default": 500
+          }
+        },
+        {
+          "name": "font/lineHeight/125.333",
+          "type": "FLOAT",
+          "values": {
+            "default": 137.867
+          }
+        },
+        {
+          "name": "font/size/75.5556",
+          "type": "FLOAT",
+          "values": {
+            "default": 75.5556
+          }
+        },
+        {
+          "name": "font/weight/75.5556",
+          "type": "FLOAT",
+          "values": {
+            "default": 500
+          }
+        },
+        {
+          "name": "font/lineHeight/75.5556",
+          "type": "FLOAT",
+          "values": {
+            "default": 87.1112
+          }
+        },
+        {
+          "name": "font/size/74.6666",
+          "type": "FLOAT",
+          "values": {
+            "default": 74.6666
+          }
+        },
+        {
+          "name": "font/weight/74.6666",
+          "type": "FLOAT",
+          "values": {
+            "default": 500
+          }
+        },
+        {
+          "name": "font/lineHeight/74.6666",
+          "type": "FLOAT",
+          "values": {
+            "default": 182.222
+          }
+        },
+        {
+          "name": "font/size/72",
+          "type": "FLOAT",
+          "values": {
+            "default": 72
+          }
+        },
+        {
+          "name": "font/weight/72",
+          "type": "FLOAT",
+          "values": {
+            "default": 500
+          }
+        },
+        {
+          "name": "font/lineHeight/72",
+          "type": "FLOAT",
+          "values": {
+            "default": 74.88
+          }
+        },
+        {
+          "name": "font/size/39.1112",
+          "type": "FLOAT",
+          "values": {
+            "default": 39.1112
+          }
+        },
+        {
+          "name": "font/weight/39.1112",
+          "type": "FLOAT",
+          "values": {
+            "default": 500
+          }
+        },
+        {
+          "name": "font/lineHeight/39.1112",
+          "type": "FLOAT",
+          "values": {
+            "default": 46.2222
+          }
+        },
+        {
+          "name": "font/size/34.6666",
+          "type": "FLOAT",
+          "values": {
+            "default": 34.6666
+          }
+        },
+        {
+          "name": "font/weight/34.6666",
+          "type": "FLOAT",
+          "values": {
+            "default": 500
+          }
+        },
+        {
+          "name": "font/lineHeight/34.6666",
+          "type": "FLOAT",
+          "values": {
+            "default": 40.9066
+          }
+        },
+        {
+          "name": "font/size/32.8888",
+          "type": "FLOAT",
+          "values": {
+            "default": 32.8888
+          }
+        },
+        {
+          "name": "font/weight/32.8888",
+          "type": "FLOAT",
+          "values": {
+            "default": 500
+          }
+        },
+        {
+          "name": "font/size/31.1112",
+          "type": "FLOAT",
+          "values": {
+            "default": 31.1112
+          }
+        },
+        {
+          "name": "font/weight/31.1112",
+          "type": "FLOAT",
+          "values": {
+            "default": 500
+          }
+        },
+        {
+          "name": "font/lineHeight/31.1112",
+          "type": "FLOAT",
+          "values": {
+            "default": 36.7112
+          }
+        },
+        {
+          "name": "font/size/28.4444",
+          "type": "FLOAT",
+          "values": {
+            "default": 28.4444
+          }
+        },
+        {
+          "name": "font/weight/28.4444",
+          "type": "FLOAT",
+          "values": {
+            "default": 500
+          }
+        },
+        {
+          "name": "font/lineHeight/28.4444",
+          "type": "FLOAT",
+          "values": {
+            "default": 35.5556
+          }
+        },
+        {
+          "name": "font/size/24",
+          "type": "FLOAT",
+          "values": {
+            "default": 24
+          }
+        },
+        {
+          "name": "font/weight/24",
+          "type": "FLOAT",
+          "values": {
+            "default": 400
+          }
+        },
+        {
+          "name": "font/lineHeight/24",
+          "type": "FLOAT",
+          "values": {
+            "default": 60
+          }
+        }
+      ]
+    },
+    {
+      "name": "Spacing",
+      "modes": [
+        "default"
+      ],
+      "variables": [
+        {
+          "name": "spacing/2",
+          "type": "FLOAT",
+          "values": {
+            "default": 2
+          }
+        },
+        {
+          "name": "spacing/60",
+          "type": "FLOAT",
+          "values": {
+            "default": 60
+          }
+        },
+        {
+          "name": "spacing/80",
+          "type": "FLOAT",
+          "values": {
+            "default": 80
+          }
+        },
+        {
+          "name": "spacing/100",
+          "type": "FLOAT",
+          "values": {
+            "default": 100
+          }
+        },
+        {
+          "name": "spacing/120",
+          "type": "FLOAT",
+          "values": {
+            "default": 120
+          }
+        },
+        {
+          "name": "spacing/133",
+          "type": "FLOAT",
+          "values": {
+            "default": 133
+          }
+        },
+        {
+          "name": "spacing/178",
+          "type": "FLOAT",
+          "values": {
+            "default": 178
+          }
+        },
+        {
+          "name": "spacing/210",
+          "type": "FLOAT",
+          "values": {
+            "default": 210
+          }
+        },
+        {
+          "name": "spacing/234",
+          "type": "FLOAT",
+          "values": {
+            "default": 234
+          }
+        },
+        {
+          "name": "spacing/285",
+          "type": "FLOAT",
+          "values": {
+            "default": 285
+          }
+        },
+        {
+          "name": "spacing/320",
+          "type": "FLOAT",
+          "values": {
+            "default": 320
+          }
+        },
+        {
+          "name": "spacing/360",
+          "type": "FLOAT",
+          "values": {
+            "default": 360
+          }
+        },
+        {
+          "name": "spacing/390",
+          "type": "FLOAT",
+          "values": {
+            "default": 390
+          }
+        },
+        {
+          "name": "spacing/428",
+          "type": "FLOAT",
+          "values": {
+            "default": 428
+          }
+        },
+        {
+          "name": "spacing/475",
+          "type": "FLOAT",
+          "values": {
+            "default": 475
+          }
+        },
+        {
+          "name": "radius/xl",
+          "type": "FLOAT",
+          "values": {
+            "default": 20
+          }
+        },
+        {
+          "name": "radius/full",
+          "type": "FLOAT",
+          "values": {
+            "default": 27
+          }
+        },
+        {
+          "name": "radius/full",
+          "type": "FLOAT",
+          "values": {
+            "default": 45
+          }
+        },
+        {
+          "name": "radius/full",
+          "type": "FLOAT",
+          "values": {
+            "default": 52
+          }
+        },
+        {
+          "name": "radius/full",
+          "type": "FLOAT",
+          "values": {
+            "default": 100
+          }
+        }
+      ]
+    }
+  ]
+}

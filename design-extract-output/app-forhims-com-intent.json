@@ -1,0 +1,199 @@
+{
+  "pageIntent": {
+    "type": "landing",
+    "confidence": 0.59,
+    "path": "/",
+    "title": "Hims App",
+    "description": "Best-in-class treatment, and beyond. Explore Programs curated to your treatment, contact Care for support anytime from anywhere, and Shop the entire collection of products—all in the app.",
+    "signals": [
+      {
+        "kind": "dom",
+        "type": "legal",
+        "weight": 0.4
+      },
+      {
+        "kind": "url",
+        "type": "landing",
+        "weight": 0.45,
+        "detail": "root-path"
+      },
+      {
+        "kind": "shape",
+        "type": "landing",
+        "weight": 0.3,
+        "detail": "hero+features+footer"
+      }
+    ],
+    "alternates": [
+      {
+        "type": "legal",
+        "score": 0.4
+      }
+    ],
+    "needsSmart": true
+  },
+  "sectionRoles": {
+    "sections": [
+      {
+        "index": 0,
+        "tag": "nav",
+        "role": "nav",
+        "subrole": null,
+        "confidence": 0.9,
+        "heading": null,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 0
+        },
+        "buttonCount": 0,
+        "cardCount": 0,
+        "slots": {
+          "lede": "Download now"
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 1,
+        "tag": "header",
+        "role": "steps",
+        "subrole": null,
+        "confidence": 0.75,
+        "heading": "Total care.\nTotally different.",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 4815.9375
+        },
+        "buttonCount": 0,
+        "cardCount": 8,
+        "slots": {
+          "heading": "Total care.\nTotally different.",
+          "lede": "Total care.\nTotally different.\nit’s all\nin\nthe app"
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 2,
+        "tag": "section",
+        "role": "testimonial",
+        "subrole": null,
+        "confidence": 0.8,
+        "heading": "Programs",
+        "bounds": {
+          "x": 0,
+          "y": 5807.109375,
+          "w": 1280,
+          "h": 8553.703125
+        },
+        "buttonCount": 0,
+        "cardCount": 16,
+        "slots": {
+          "heading": "Programs",
+          "lede": "Programs\n%\n0"
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 3,
+        "tag": "section",
+        "role": "testimonial",
+        "subrole": null,
+        "confidence": 0.8,
+        "heading": "Care",
+        "bounds": {
+          "x": 0,
+          "y": 14583.03125,
+          "w": 1280,
+          "h": 4742.796875
+        },
+        "buttonCount": 0,
+        "cardCount": 4,
+        "slots": {
+          "heading": "Care"
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 4,
+        "tag": "section",
+        "role": "pricing",
+        "subrole": null,
+        "confidence": 0.4,
+        "heading": "Member\nShop",
+        "bounds": {
+          "x": 0,
+          "y": 19324.828125,
+          "w": 1280,
+          "h": 8589.96875
+        },
+        "buttonCount": 0,
+        "cardCount": 16,
+        "slots": {
+          "heading": "Member\nShop"
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 5,
+        "tag": "section",
+        "role": "faq",
+        "subrole": null,
+        "confidence": 0.85,
+        "heading": "Hims App FAQs",
+        "bounds": {
+          "x": 64,
+          "y": 28113.015625,
+          "w": 1152,
+          "h": 420.71875
+        },
+        "buttonCount": 0,
+        "cardCount": 3,
+        "slots": {
+          "heading": "Hims App FAQs",
+          "lede": "Hims App FAQs\nHow do I download the Hims app?"
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 6,
+        "tag": "footer",
+        "role": "footer",
+        "subrole": null,
+        "confidence": 0.95,
+        "heading": null,
+        "bounds": {
+          "x": 0,
+          "y": 28667.0625,
+          "w": 1280,
+          "h": 585
+        },
+        "buttonCount": 0,
+        "cardCount": 4,
+        "slots": {
+          "lede": "forhims.com\nforhers.com\nTerms & conditions\nPrivacy policy"
+        },
+        "needsSmart": false
+      }
+    ],
+    "counts": {
+      "nav": 1,
+      "steps": 1,
+      "testimonial": 2,
+      "pricing": 1,
+      "faq": 1,
+      "footer": 1
+    },
+    "readingOrder": [
+      "nav",
+      "steps",
+      "testimonial",
+      "testimonial",
+      "pricing",
+      "faq",
+      "footer"
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+:root {
+  /* Colors — Primary */
+  --color-primary: #5d48db;
+
+  /* Colors — Neutrals */
+  --color-neutral-50: #000000;
+  --color-neutral-100: #ffffff;
+  --color-neutral-200: #f0f0f0;
+
+  /* Colors — Backgrounds */
+  --color-bg: #ffffff;
+  --color-bg-1: #000000;
+
+  /* Colors — Text */
+  --color-text: #000000;
+  --color-text-1: #5d48db;
+  --color-text-2: #f0f0f0;
+  --color-text-3: #ffffff;
+
+  /* Typography — Families */
+  --font-sans: 'sofia', sans-serif;
+  --font-body: 'Times', sans-serif;
+
+  /* Typography — Scale */
+  --font-size-248.889: 248.889px;
+  --font-size-195.556: 195.556px;
+  --font-size-125.333: 125.333px;
+  --font-size-75.5556: 75.5556px;
+  --font-size-74.6666: 74.6666px;
+  --font-size-72: 72px;
+  --font-size-39.1112: 39.1112px;
+  --font-size-34.6666: 34.6666px;
+  --font-size-32.8888: 32.8888px;
+  --font-size-31.1112: 31.1112px;
+  --font-size-28.4444: 28.4444px;
+  --font-size-24: 24px;
+
+  /* Spacing */
+  --spacing-2: 2px;
+  --spacing-60: 60px;
+  --spacing-80: 80px;
+  --spacing-100: 100px;
+  --spacing-120: 120px;
+  --spacing-133: 133px;
+  --spacing-178: 178px;
+  --spacing-210: 210px;
+  --spacing-234: 234px;
+  --spacing-285: 285px;
+  --spacing-320: 320px;
+  --spacing-360: 360px;
+  --spacing-390: 390px;
+  --spacing-428: 428px;
+  --spacing-475: 475px;
+
+  /* Border Radius */
+  --radius-xl: 20px;
+  --radius-full: 27px;
+  --radius-full: 45px;
+  --radius-full: 52px;
+  --radius-full: 100px;
+
+  /* Box Shadows */
+  --shadow-xl: rgba(0, 0, 0, 0.06) 0px 8px 30px 0px;
+  --shadow-xl: rgba(0, 0, 0, 0.25) 0px 9px 46px 0px;
+  --shadow-xl: rgba(0, 0, 0, 0.12) 0px 27px 104px 0px;
+  --shadow-xl: rgba(0, 0, 0, 0.11) 0px 8px 127px 0px;
+
+  /* Original Site Variables */
+  /* — semantic — */
+  success: [object Object];
+  warning: [object Object];
+  error: [object Object];
+  info: [object Object];
+
+}

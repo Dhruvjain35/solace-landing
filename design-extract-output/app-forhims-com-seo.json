@@ -1,0 +1,52 @@
+{
+  "openGraph": {
+    "url": "https://app.forhims.com/",
+    "type": "website",
+    "title": "Hims App",
+    "description": "Best-in-class treatment, and beyond. Explore Programs curated to your treatment, contact Care for support anytime from anywhere, and Shop the entire collection of products—all in the app.",
+    "image": "https://app.forhims.com/og/1200-630.jpg"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "domain": "app.forhims.com",
+    "url": "https://app.forhims.com/",
+    "title": "Hims App",
+    "description": "Best-in-class treatment, and beyond. Explore Programs curated to your treatment, contact Care for support anytime from anywhere, and Shop the entire collection of products—all in the app.",
+    "image": "https://app.forhims.com/og/1200-630.jpg"
+  },
+  "description": "Best-in-class treatment, and beyond. Explore Programs curated to your treatment, contact Care for support anytime from anywhere, and Shop the entire collection of products—all in the app.",
+  "canonical": null,
+  "themeColor": "#fff",
+  "viewport": "width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=5",
+  "favicons": [
+    {
+      "rel": "icon",
+      "href": "https://app.forhims.com/fav/fav.svg",
+      "sizes": "",
+      "type": ""
+    },
+    {
+      "rel": "alternate icon",
+      "href": "https://app.forhims.com/fav/fav.ico",
+      "sizes": "",
+      "type": ""
+    },
+    {
+      "rel": "apple-touch-icon",
+      "href": "https://app.forhims.com/fav/apple-touch.png",
+      "sizes": "",
+      "type": ""
+    }
+  ],
+  "manifest": "https://app.forhims.com/fav/manifest.json",
+  "structuredData": [],
+  "score": {
+    "hasOg": true,
+    "hasTwitter": true,
+    "hasDescription": true,
+    "hasCanonical": false,
+    "hasStructuredData": false,
+    "hasFavicon": true,
+    "hasThemeColor": true
+  }
+}

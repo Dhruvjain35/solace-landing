@@ -1,0 +1,19 @@
+{
+  "tone": "friendly",
+  "pronoun": "you-only",
+  "headingStyle": "Title Case",
+  "headingLengthClass": "tight",
+  "ctaVerbs": [],
+  "buttonPatterns": [],
+  "sampleHeadings": [
+    "Total care.\nTotally different.",
+    "Programs",
+    "Care",
+    "Member\nShop",
+    "Hims App FAQs"
+  ],
+  "stats": {
+    "buttons": 0,
+    "headings": 5
+  }
+}

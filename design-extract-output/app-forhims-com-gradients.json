@@ -1,0 +1,204 @@
+{
+  "$schema": "https://designlang.app/schemas/gradients.json",
+  "source": "https://app.forhims.com/?ref=godly",
+  "generated": "2026-06-04T15:37:20.096Z",
+  "count": 11,
+  "gradients": [
+    {
+      "raw": "linear-gradient(166.14deg, rgb(192, 227, 216) 0px, rgb(186, 225, 220) 100%)",
+      "type": "linear",
+      "direction": "166.14deg",
+      "stops": [
+        {
+          "color": "rgb(192, 227, 216)",
+          "position": "0px"
+        },
+        {
+          "color": "rgb(186, 225, 220)",
+          "position": "100%"
+        }
+      ],
+      "classification": "brand"
+    },
+    {
+      "raw": "linear-gradient(166.14deg, rgb(232, 244, 247) 0px, rgb(175, 205, 222) 100%)",
+      "type": "linear",
+      "direction": "166.14deg",
+      "stops": [
+        {
+          "color": "rgb(232, 244, 247)",
+          "position": "0px"
+        },
+        {
+          "color": "rgb(175, 205, 222)",
+          "position": "100%"
+        }
+      ],
+      "classification": "brand"
+    },
+    {
+      "raw": "linear-gradient(166.14deg, rgb(106, 180, 165) 0px, rgb(134, 183, 212) 100%)",
+      "type": "linear",
+      "direction": "166.14deg",
+      "stops": [
+        {
+          "color": "rgb(106, 180, 165)",
+          "position": "0px"
+        },
+        {
+          "color": "rgb(134, 183, 212)",
+          "position": "100%"
+        }
+      ],
+      "classification": "brand"
+    },
+    {
+      "raw": "linear-gradient(166.14deg, rgb(83, 170, 255) 1.38%, rgb(53, 119, 191) 38.84%, rgb(0, 0, 0) 74.76%)",
+      "type": "linear",
+      "direction": "166.14deg",
+      "stops": [
+        {
+          "color": "rgb(83, 170, 255)",
+          "position": "1.38%"
+        },
+        {
+          "color": "rgb(53, 119, 191)",
+          "position": "38.84%"
+        },
+        {
+          "color": "rgb(0, 0, 0)",
+          "position": "74.76%"
+        }
+      ],
+      "classification": "bold"
+    },
+    {
+      "raw": "linear-gradient(243.63deg, rgb(63, 209, 148) 16.96%, rgb(47, 165, 158) 60.78%)",
+      "type": "linear",
+      "direction": "243.63deg",
+      "stops": [
+        {
+          "color": "rgb(63, 209, 148)",
+          "position": "16.96%"
+        },
+        {
+          "color": "rgb(47, 165, 158)",
+          "position": "60.78%"
+        }
+      ],
+      "classification": "brand"
+    },
+    {
+      "raw": "linear-gradient(123.97deg, rgb(79, 216, 171) 10.62%, rgb(94, 161, 231) 43.12%, rgb(131, 117, 208) 89.61%)",
+      "type": "linear",
+      "direction": "123.97deg",
+      "stops": [
+        {
+          "color": "rgb(79, 216, 171)",
+          "position": "10.62%"
+        },
+        {
+          "color": "rgb(94, 161, 231)",
+          "position": "43.12%"
+        },
+        {
+          "color": "rgb(131, 117, 208)",
+          "position": "89.61%"
+        }
+      ],
+      "classification": "bold"
+    },
+    {
+      "raw": "linear-gradient(90deg, rgb(53, 47, 51) 0px, rgb(41, 37, 38) 100%)",
+      "type": "linear",
+      "direction": "90deg",
+      "stops": [
+        {
+          "color": "rgb(53, 47, 51)",
+          "position": "0px"
+        },
+        {
+          "color": "rgb(41, 37, 38)",
+          "position": "100%"
+        }
+      ],
+      "classification": "brand"
+    },
+    {
+      "raw": "linear-gradient(90deg, rgb(49, 44, 48) 0px, rgb(53, 47, 51) 50%, rgb(41, 37, 38) 100%)",
+      "type": "linear",
+      "direction": "90deg",
+      "stops": [
+        {
+          "color": "rgb(49, 44, 48)",
+          "position": "0px"
+        },
+        {
+          "color": "rgb(53, 47, 51)",
+          "position": "50%"
+        },
+        {
+          "color": "rgb(41, 37, 38)",
+          "position": "100%"
+        }
+      ],
+      "classification": "bold"
+    },
+    {
+      "raw": "linear-gradient(93.37deg, rgb(150, 133, 255) -1.4%, rgb(209, 178, 202) 34.29%, rgb(181, 173, 225) 85.34%)",
+      "type": "linear",
+      "direction": "93.37deg",
+      "stops": [
+        {
+          "color": "rgb(150, 133, 255) -",
+          "position": "1.4%"
+        },
+        {
+          "color": "rgb(209, 178, 202)",
+          "position": "34.29%"
+        },
+        {
+          "color": "rgb(181, 173, 225)",
+          "position": "85.34%"
+        }
+      ],
+      "classification": "bold"
+    },
+    {
+      "raw": "linear-gradient(0deg, rgba(245, 240, 242, 0) 50%, rgba(180, 205, 196, 0.7) 100%)",
+      "type": "linear",
+      "direction": "0deg",
+      "stops": [
+        {
+          "color": "rgba(245, 240, 242, 0)",
+          "position": "50%"
+        },
+        {
+          "color": "rgba(180, 205, 196, 0.7)",
+          "position": "100%"
+        }
+      ],
+      "classification": "brand"
+    },
+    {
+      "raw": "linear-gradient(123.97deg, rgb(127, 191, 188) 10.62%, rgb(85, 107, 113) 49.7%, rgb(0, 0, 0) 89.61%)",
+      "type": "linear",
+      "direction": "123.97deg",
+      "stops": [
+        {
+          "color": "rgb(127, 191, 188)",
+          "position": "10.62%"
+        },
+        {
+          "color": "rgb(85, 107, 113)",
+          "position": "49.7%"
+        },
+        {
+          "color": "rgb(0, 0, 0)",
+          "position": "89.61%"
+        }
+      ],
+      "classification": "bold"
+    }
+  ]
+}

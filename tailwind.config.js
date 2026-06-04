@@ -29,6 +29,9 @@ export default {
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],
         display: ['"Instrument Serif"', 'Georgia', 'serif'], // free lookalike for Cruise's Cirka
+        // Geometric grotesque — closest free match to hims&hers' Sofia Pro, used on
+        // the forhims-style intake showcase headline.
+        sofia: ['"Sofia Sans"', 'Inter', 'system-ui', 'sans-serif'],
       },
       // Cruise spacing scale (2px base) — exact values extracted from the site
       spacing: {
