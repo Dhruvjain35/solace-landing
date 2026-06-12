@@ -29,6 +29,14 @@ const GLOW_GRADIENT =
 // Ghost-type sweep bands across track progress (start, end). Bands overlap on
 // purpose — one line exits the top as the next enters the bottom, so a line
 // is always on stage while the phone grows.
+// Mobile bands: the 220vh track sweeps faster, so each line gets a wider
+// slice and the parade ends before the section boundary enters the frame.
+const GHOST_BANDS_M = [
+  [0.16, 0.4],
+  [0.32, 0.56],
+  [0.48, 0.74],
+] as const;
+
 const GHOST_BANDS = [
   [0.14, 0.36],
   [0.32, 0.54],
@@ -72,7 +80,7 @@ function GhostLine({
     >
       <motion.div
         style={{ opacity, x, willChange: 'transform' }}
-        className="select-none whitespace-nowrap font-sofia font-medium leading-none tracking-hims text-solace-green-600/50 lg:text-[clamp(150px,20vw,280px)]"
+        className="select-none whitespace-nowrap font-sofia font-medium leading-none tracking-hims text-solace-green-600/50 text-[clamp(64px,21vw,140px)] lg:text-[clamp(150px,20vw,280px)]"
       >
         {children}
       </motion.div>
@@ -126,7 +134,7 @@ export default function AppHero() {
       // overflow-clip keeps the rounded-corner clipping without creating a
       // scrollport (plain overflow-hidden on this ancestor would un-stick the
       // pinned stage); overflow-hidden stays as the parse-time fallback.
-      className="relative mx-2 mt-2 h-[160vh] overflow-hidden overflow-clip rounded-hims bg-white md:mx-8 md:mt-3 lg:h-[300vh]"
+      className="relative mx-2 mt-2 h-[220vh] overflow-hidden overflow-clip rounded-hims bg-white md:mx-8 md:mt-3 lg:h-[300vh]"
     >
       {/* ===== Pinned stage ===== */}
       {/* h-svh keeps the bottom-anchored phone above mobile browser chrome */}
@@ -155,19 +163,17 @@ export default function AppHero() {
         {/* --- Ghost mega type sweeping vertically behind the phone ---
             Desktop-only: the short mobile track would sweep it at ~7× scroll
             speed, so below lg the hero stays a quick, honest beat. */}
-        {isWide && (
-          <div aria-hidden className="pointer-events-none absolute inset-0 z-10">
-            <GhostLine progress={p} band={GHOST_BANDS[0]} reduce={reduce} shift="-9vw">
-              it&rsquo;s
-            </GhostLine>
-            <GhostLine progress={p} band={GHOST_BANDS[1]} reduce={reduce} shift="9vw">
-              all in
-            </GhostLine>
-            <GhostLine progress={p} band={GHOST_BANDS[2]} reduce={reduce} shift="-4vw">
-              the app.
-            </GhostLine>
-          </div>
-        )}
+        <div aria-hidden className="pointer-events-none absolute inset-0 z-10">
+          <GhostLine progress={p} band={isWide ? GHOST_BANDS[0] : GHOST_BANDS_M[0]} reduce={reduce} shift={isWide ? '-9vw' : '-5vw'}>
+            it&rsquo;s
+          </GhostLine>
+          <GhostLine progress={p} band={isWide ? GHOST_BANDS[1] : GHOST_BANDS_M[1]} reduce={reduce} shift={isWide ? '9vw' : '5vw'}>
+            all in
+          </GhostLine>
+          <GhostLine progress={p} band={isWide ? GHOST_BANDS[2] : GHOST_BANDS_M[2]} reduce={reduce} shift={isWide ? '-4vw' : '-2vw'}>
+            the app.
+          </GhostLine>
+        </div>
 
         {/* --- Headline (the page h1) --- */}
         <motion.div
