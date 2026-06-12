@@ -1,24 +1,35 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import { Link, useLocation } from 'react-router-dom';
 import Logo from './ui/Logo';
 import { transitions } from '../lib/motion';
 
 const LINKS = [
-  { label: 'Product', to: '/product' },
+  { label: 'How it Works', to: '/how-it-works' },
   { label: 'For Clinicians', to: '/clinicians' },
   { label: 'Company', to: '/company' },
-  { label: 'Blog', to: '/blog' },
 ];
 
 export default function Nav() {
   const [scrolled, setScrolled] = useState(false);
+  const [hidden, setHidden] = useState(false);
   const [open, setOpen] = useState(false);
-  const { pathname } = useLocation();
-  const onDarkHero = pathname === '/';
+  const lastY = useRef(0);
+  useLocation(); // keep router context subscription for active states below
+  // Every page now opens on a light stage (the old dark home hero is gone),
+  // so the glass-light nav variant is never needed.
+  const onDarkHero = false;
 
+  // Hide the pill while scrolling down (so mega type passes under a clear
+  // stage, like the reference's corner-only chrome) and bring it back the
+  // moment the user scrolls up.
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 40);
+    const onScroll = () => {
+      const y = window.scrollY;
+      setScrolled(y > 40);
+      setHidden(y > lastY.current && y > 240);
+      lastY.current = y;
+    };
     onScroll();
     window.addEventListener('scroll', onScroll, { passive: true });
     return () => window.removeEventListener('scroll', onScroll);
@@ -30,7 +41,7 @@ export default function Nav() {
   return (
     <motion.header
       initial={{ y: -20, opacity: 0 }}
-      animate={{ y: 0, opacity: 1 }}
+      animate={hidden && !open ? { y: -90, opacity: 0 } : { y: 0, opacity: 1 }}
       transition={transitions.slow}
       className="fixed inset-x-0 top-4 z-50 flex justify-center px-4"
     >
@@ -41,8 +52,12 @@ export default function Nav() {
             : 'border-solace-soft bg-white/85 text-ink shadow-card'
         }`}
       >
-        <Link to="/" className="px-3" aria-label="Solace home">
-          <Logo light={light} compact />
+        <Link
+          to="/"
+          aria-label="Solace home"
+          className="flex items-center rounded-pill bg-white px-5 py-2 shadow-soft ring-1 ring-black/[0.06] transition-transform duration-[600ms] ease-hims-expo hover:scale-[1.03]"
+        >
+          <Logo light={light} className="!h-12" />
         </Link>
 
         <div className="hidden items-center md:flex">
@@ -72,7 +87,12 @@ export default function Nav() {
           Book a Demo
         </Link>
 
-        <button className="px-3 md:hidden" aria-label="Menu" onClick={() => setOpen((v) => !v)}>
+        <button
+          className="flex h-11 w-11 items-center justify-center md:hidden"
+          aria-label="Menu"
+          aria-expanded={open}
+          onClick={() => setOpen((v) => !v)}
+        >
           <div className="space-y-1.5">
             <span className={`block h-0.5 w-5 ${light ? 'bg-white' : 'bg-ink'}`} />
             <span className={`block h-0.5 w-5 ${light ? 'bg-white' : 'bg-ink'}`} />
@@ -83,7 +103,7 @@ export default function Nav() {
       {open && (
         <div className="absolute top-16 left-4 right-4 rounded-3xl border border-solace-soft bg-white p-4 shadow-lift md:hidden">
           {LINKS.map((l) => (
-            <Link key={l.to} to={l.to} onClick={() => setOpen(false)} className="block py-2.5 text-sm text-muted">
+            <Link key={l.to} to={l.to} onClick={() => setOpen(false)} className="block py-3 text-sm text-muted">
               {l.label}
             </Link>
           ))}

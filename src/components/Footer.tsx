@@ -4,7 +4,7 @@ import Logo from './ui/Logo';
 const COLS = [
   { title: 'Product', links: [['Voice Intake', '/product'], ['Triage Engine', '/product'], ['Pre-Brief & Scribe', '/product'], ['Phone Agent', '/product']] },
   { title: 'Use cases', links: [['Emergency Departments', '/clinicians'], ['Urgent Care', '/clinicians'], ['Triage Nurses', '/clinicians'], ['Patients (LEP)', '/clinicians']] },
-  { title: 'Company', links: [['About', '/company'], ['Careers', '/company'], ['Blog', '/blog'], ['Contact', '/demo']] },
+  { title: 'Company', links: [['About', '/company'], ['Careers', '/company'], ['How it works', '/how-it-works'], ['Contact', '/demo']] },
   { title: 'Legal', links: [['Privacy', '/company'], ['HIPAA', '/company'], ['Security', '/company'], ['Terms', '/company']] },
 ] as const;
 
@@ -21,7 +21,7 @@ export default function Footer() {
             </p>
             <div className="mt-6 flex flex-wrap items-center gap-2.5">
               <span className="inline-flex items-center gap-2 rounded-xl border border-black/10 bg-white px-3 py-2">
-                <span className="font-display text-lg leading-none text-solace-green-700">HIPAA</span>
+                <span className="font-sofia text-lg leading-none text-solace-green-700">HIPAA</span>
                 <span className="text-[11px] font-medium uppercase tracking-wide text-muted">Compliant</span>
               </span>
               <span className="inline-flex items-center gap-2 rounded-xl border border-black/10 bg-white px-3 py-2">
@@ -47,7 +47,7 @@ export default function Footer() {
         </div>
         <div className="mt-16 flex flex-col items-center justify-between gap-4 border-t border-black/8 pt-8 text-xs text-muted sm:flex-row">
           <p>© {new Date().getFullYear()} Solace AI, Inc. All rights reserved.</p>
-          <p>Encrypted at rest &amp; in transit · PHI redacted before any model call</p>
+          <p className="mx-auto max-w-sm text-center [text-wrap:balance]">Encrypted at rest &amp; in transit · PHI redacted before any model call</p>
         </div>
       </div>
     </footer>
