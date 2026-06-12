@@ -186,7 +186,11 @@ export default function ClosingShowcase() {
             'linear-gradient(160deg, #DFF3EC 0%, #BFE5D6 50%, #A0D7C4 100%)',
         }}
       >
-        <div className="relative z-30 flex flex-col items-center px-6 pt-[12vh] text-center">
+        {/* Below lg the phone is position:absolute at the band's bottom, so
+            the copy block reserves the phone's visible height (width × the
+            1728:2304 rig ratio, minus the 10% bottom tuck) plus a gap —
+            the CTA pills can never collide with the rising bezel. */}
+        <div className="relative z-30 flex flex-col items-center px-6 pb-[calc(min(80vw,440px)*1.2+32px)] pt-[12vh] text-center lg:pb-0">
           <motion.h2
             id="closing-heading"
             initial={reduce ? { opacity: 0 } : { opacity: 0, y: 28 }}
@@ -232,7 +236,7 @@ export default function ClosingShowcase() {
         {/* Hand + phone, pinned to the band's bottom edge. The outer div owns
             the static -translate-x-1/2 centering; the inner motion.div owns
             the scroll-linked rise so framer can't clobber the centering. */}
-        <div className="absolute bottom-0 left-1/2 z-10 w-[clamp(440px,36vw,540px)] -translate-x-[53%] translate-y-[10%]">
+        <div className="absolute bottom-0 left-1/2 z-10 w-[min(80vw,440px)] -translate-x-[53%] translate-y-[10%] lg:w-[clamp(440px,36vw,540px)]">
           <motion.div style={{ y: phoneY, willChange: 'transform' }}>
             {/* Decorative — the band's heading and copy carry the message.
                 Shows the explained plan, a different moment from the other
@@ -249,7 +253,7 @@ export default function ClosingShowcase() {
       </section>
 
       {/* ===== 2 · Teal-gradient mega paragraph, scrubbed word by word ===== */}
-      <section className="bg-white py-[18vh]">
+      <section className="bg-white py-[12vh] lg:py-[18vh]">
         <div className="mx-auto max-w-5xl px-6">
           <p
             ref={megaRef}

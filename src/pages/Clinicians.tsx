@@ -264,7 +264,7 @@ function FeatureTiles({ reduce }: { reduce: boolean | null }) {
       <div className="mx-auto grid max-w-[1280px] grid-cols-1 gap-2.5 px-2.5 sm:grid-cols-2 lg:grid-cols-4">
         {/* --- The snapshot summary (ink, drifts up) --- */}
         <motion.div style={{ y: yUp }} className="will-change-transform">
-          <Tile index={0} reduce={reduce} className="h-[380px] bg-ink">
+          <Tile index={0} reduce={reduce} className="h-[340px] bg-ink sm:h-[380px]">
             <div className="flex h-full flex-col justify-between p-6">
               <div>
                 <Kicker tone="light">The snapshot</Kicker>
@@ -288,7 +288,7 @@ function FeatureTiles({ reduce }: { reduce: boolean | null }) {
 
         {/* --- The watch-list (deep green, drifts down) --- */}
         <motion.div style={{ y: yDown }} className="will-change-transform lg:pt-12">
-          <Tile index={1} reduce={reduce} className="h-[380px] bg-solace-green-700">
+          <Tile index={1} reduce={reduce} className="h-[340px] bg-solace-green-700 sm:h-[380px]">
             <div className="flex h-full flex-col justify-between p-6">
               <div>
                 <Kicker tone="light">The watch-list</Kicker>
@@ -325,7 +325,7 @@ function FeatureTiles({ reduce }: { reduce: boolean | null }) {
           <Tile
             index={2}
             reduce={reduce}
-            className="h-[380px] bg-paper ring-1 ring-black/[0.06]"
+            className="h-[340px] bg-paper ring-1 ring-black/[0.06] sm:h-[380px]"
           >
             <div className="flex h-full flex-col justify-between p-6">
               <div>
@@ -361,7 +361,7 @@ function FeatureTiles({ reduce }: { reduce: boolean | null }) {
           <Tile
             index={3}
             reduce={reduce}
-            className="h-[380px]"
+            className="h-[340px] sm:h-[380px]"
             style={{ backgroundImage: PALE_GRADIENT }}
           >
             <div className="relative flex h-full flex-col justify-between p-6">
@@ -490,7 +490,7 @@ function DarkAct({ reduce }: { reduce: boolean | null }) {
           </p>
         </Reveal>
       </div>
-      <div className="mx-auto mt-[6vh] w-full max-w-[1100px] px-6 pb-[14vh]">
+      <div className="mx-auto mt-[6vh] w-full max-w-[1100px] px-2.5 pb-[14vh] sm:px-6">
         <LaptopRig
           screen={<QueueScreen />}
           alt="Solace Atlas workspace: the live patient queue, wait times and pain alerts"
@@ -543,7 +543,7 @@ export default function Clinicians() {
       {/* ===== 3 · Atlas showcase: the patient snapshot on the laptop ===== */}
       <section
         aria-labelledby="atlas-heading"
-        className="bg-white pb-[12vh]"
+        className="overflow-hidden bg-white pb-[12vh]"
         style={{ backgroundImage: WASH_WHITE_TO_LAV }}
       >
         <div className="px-6 text-center">
@@ -565,7 +565,7 @@ export default function Clinicians() {
             </p>
           </Reveal>
         </div>
-        <div className="mx-auto mt-[7vh] w-full max-w-[1100px] px-6">
+        <div className="mx-auto mt-[7vh] w-full max-w-[1100px] px-2.5 sm:px-6">
           <LaptopRig
             screen={<EhrScreen />}
             alt="Solace Atlas patient snapshot: a clear summary, the dangerous causes to rule out and the suggested tests"

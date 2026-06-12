@@ -77,10 +77,14 @@ const BAR_HEIGHTS = [10, 22, 14, 30, 40, 26, 34, 18, 28, 12, 20, 9];
 function VoiceBars({ still }: { still: boolean }) {
   return (
     <div aria-hidden="true" className="flex h-11 items-center gap-[5px]">
+      {/* Bars 8+ only fit once the 2-col tiles widen past ~sm — below that
+          they would run through the tile's right padding edge. */}
       {BAR_HEIGHTS.map((h, i) => (
         <motion.span
           key={i}
-          className="w-[4px] rounded-full bg-solace-green-700/70"
+          className={`w-[4px] rounded-full bg-solace-green-700/70 ${
+            i >= 7 ? 'hidden sm:block' : ''
+          }`}
           style={{ height: h }}
           initial={false}
           animate={still ? { scaleY: 1 } : { scaleY: [1, 0.45, 1] }}

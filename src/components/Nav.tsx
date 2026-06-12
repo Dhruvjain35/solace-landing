@@ -55,9 +55,9 @@ export default function Nav() {
         <Link
           to="/"
           aria-label="Solace home"
-          className="flex items-center rounded-pill bg-white px-5 py-2 shadow-soft ring-1 ring-black/[0.06] transition-transform duration-[600ms] ease-hims-expo hover:scale-[1.03]"
+          className="flex items-center rounded-pill bg-white px-4 py-2 shadow-soft ring-1 ring-black/[0.06] transition-transform duration-[600ms] ease-hims-expo hover:scale-[1.03] md:px-5"
         >
-          <Logo light={light} className="!h-12" />
+          <Logo light={light} className="!h-10 md:!h-12" />
         </Link>
 
         <div className="hidden items-center md:flex">
@@ -101,7 +101,7 @@ export default function Nav() {
       </nav>
 
       {open && (
-        <div className="absolute top-16 left-4 right-4 rounded-3xl border border-solace-soft bg-white p-4 shadow-lift md:hidden">
+        <div className="absolute left-4 right-4 top-full mt-2 rounded-3xl border border-solace-soft bg-white p-4 shadow-lift md:hidden">
           {LINKS.map((l) => (
             <Link key={l.to} to={l.to} onClick={() => setOpen(false)} className="block py-3 text-sm text-muted">
               {l.label}

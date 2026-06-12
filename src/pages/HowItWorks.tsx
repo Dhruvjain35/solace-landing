@@ -509,7 +509,7 @@ export default function HowItWorks() {
             </p>
           </Reveal>
         </div>
-        <div className="mx-auto mt-[6vh] w-full max-w-[1100px] px-6">
+        <div className="mx-auto mt-[6vh] w-full max-w-[1100px] px-2.5 sm:px-6">
           <LaptopRig
             screen={<EhrScreen />}
             alt="The Solace clinician view: the patient summary, the causes to rule out and the reasons behind the suggested priority"
@@ -525,7 +525,7 @@ export default function HowItWorks() {
             </p>
           </Reveal>
         </div>
-        <div className="mx-auto mt-[6vh] w-full max-w-[1100px] px-6">
+        <div className="mx-auto mt-[6vh] w-full max-w-[1100px] px-2.5 sm:px-6">
           <LaptopRig
             screen={<LettersScreen />}
             alt="The Solace letters workspace: two dozen chart-aware templates with a drafted work note ready to review and sign"

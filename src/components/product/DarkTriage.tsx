@@ -103,7 +103,7 @@ export default function DarkTriage() {
       className="overflow-hidden bg-ink"
     >
       {/* ===== 1 · Mega word ===== */}
-      <div className="px-4 py-[14vh] text-center">
+      <div className="px-4 py-[10vh] text-center lg:py-[14vh]">
         <motion.h2
           id="triage-heading"
           initial={{ opacity: 0, y: reduce ? 0 : 90 }}
@@ -173,9 +173,11 @@ export default function DarkTriage() {
       </div>
 
       {/* ===== 4 · Clinician hardware: 3D laptop + floating EHR window ===== */}
+      {/* Near full-bleed below sm so the DOM screens (cqw units) render as
+          large as the viewport allows — the dashboards stay legible. */}
       <div
         ref={shotsRef}
-        className="mx-auto mt-[8vh] w-full max-w-[1100px] px-6"
+        className="mx-auto mt-[8vh] w-full max-w-[1100px] px-3 sm:px-6"
       >
         <LaptopRig
           screen={<EhrScreen />}

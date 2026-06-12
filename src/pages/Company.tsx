@@ -301,7 +301,7 @@ export default function Company() {
                 <Reveal
                   index={i + 1}
                   reduce={reduce}
-                  className={`relative h-[320px] overflow-hidden rounded-tile md:h-[360px] ${TILE_TONES[value.tone]}`}
+                  className={`relative h-[240px] overflow-hidden rounded-tile md:h-[360px] ${TILE_TONES[value.tone]}`}
                 >
                   {value.tone === 'pale' ? (
                     <div
@@ -350,7 +350,7 @@ export default function Company() {
                 <Reveal
                   index={i}
                   reduce={reduce}
-                  className={`relative h-[360px] overflow-hidden rounded-tile md:h-[420px] ${TILE_TONES[fact.tone]}`}
+                  className={`relative h-[300px] overflow-hidden rounded-tile md:h-[420px] ${TILE_TONES[fact.tone]}`}
                 >
                   {fact.tone === 'pale' ? (
                     <div

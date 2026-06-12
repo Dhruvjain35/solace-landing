@@ -57,7 +57,7 @@ export default function FeatureIntro() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, amount: 0.5 }}
         transition={rise}
-        className="mx-auto max-w-[14ch] px-4 pt-[20vh] text-center font-sofia text-[clamp(48px,7.2vw,110px)] font-medium leading-[1.02] tracking-hims text-ink"
+        className="mx-auto max-w-[14ch] px-4 pt-[14vh] text-center font-sofia text-[clamp(48px,7.2vw,110px)] font-medium leading-[1.02] tracking-hims text-ink lg:pt-[20vh]"
       >
         Everything you need to run a calmer ED.
       </motion.h2>
@@ -66,7 +66,7 @@ export default function FeatureIntro() {
       <div
         ref={cardAreaRef}
         aria-hidden="true"
-        className="flex min-h-[52vh] items-center justify-center lg:min-h-[70vh]"
+        className="flex min-h-[40vh] items-center justify-center lg:min-h-[70vh]"
       >
         <motion.div
           style={{ scale: cardScale, y: cardY, willChange: 'transform' }}
@@ -99,7 +99,7 @@ export default function FeatureIntro() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, amount: 0.4 }}
         transition={rise}
-        className="pb-[16vh] text-center font-sofia text-[clamp(140px,28vw,430px)] font-medium leading-none tracking-hims text-ink"
+        className="pb-[10vh] text-center font-sofia text-[clamp(140px,28vw,430px)] font-medium leading-none tracking-hims text-ink lg:pb-[16vh]"
       >
         Intake
       </motion.p>

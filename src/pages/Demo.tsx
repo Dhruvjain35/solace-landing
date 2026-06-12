@@ -24,7 +24,7 @@ const FIELDS = [
 ] as const;
 
 const INPUT_CLASS =
-  'mt-2 w-full rounded-pill border border-black/10 bg-white px-5 py-3.5 text-[15px] text-ink placeholder:text-muted/60 outline-none transition-colors duration-200 focus:border-solace-green-500';
+  'mt-2 w-full rounded-pill border border-black/10 bg-white px-5 py-3.5 text-base text-ink placeholder:text-muted/60 outline-none transition-colors duration-200 focus:border-solace-green-500';
 
 // House mount reveal: opacity rides HIMS_OUT (0.2s), y rides HIMS_EXPO
 // (0.6s), siblings stagger 0.04s apart on both curves.

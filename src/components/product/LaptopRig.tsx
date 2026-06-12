@@ -110,7 +110,9 @@ export default function LaptopRig({ src, alt, screen, className }: LaptopRigProp
       {/* --- BASE: aluminum deck with thumb scoop --- */}
       <div
         aria-hidden="true"
-        className="relative h-[14px] w-[112%] rounded-t-[3px] rounded-b-2xl"
+        // Slimmer deck overhang below sm: at near-full-bleed phone widths the
+        // full 112% deck would poke past the viewport edges.
+        className="relative h-[14px] w-[105%] rounded-t-[3px] rounded-b-2xl sm:w-[112%]"
         style={{
           background: 'linear-gradient(180deg, #3a3d42, #26282c 55%, #17181b)',
         }}

@@ -109,7 +109,7 @@ export default function BigStatement({
   }, [text, lastLineBreak]);
 
   return (
-    <section ref={sectionRef} className="relative py-[18vh] lg:py-[24vh]">
+    <section ref={sectionRef} className="relative py-[12vh] lg:py-[24vh]">
       <div className="mx-auto max-w-5xl px-6 md:px-12">
         <p
           className={`max-w-[24ch] font-sofia text-[clamp(34px,4.6vw,64px)] font-medium leading-[1.18] tracking-[-0.02em] ${
